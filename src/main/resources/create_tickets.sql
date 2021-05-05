@@ -3,6 +3,7 @@ CREATE TABLE ticket (
     name VARCHAR(255) NOT NULL,
     subject VARCHAR(255) NOT NULL,
     body VARCHAR(255) NOT NULL,
+    comment VARCHAR(255),
     PRIMARY KEY (id)
 );
 
